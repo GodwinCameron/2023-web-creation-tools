@@ -1,0 +1,140 @@
+/* FILE: woocommerce/tabs/_reviews.scss */
+
+.woocommerce-Reviews {
+
+	> div + div {
+		margin-top: _pow( $ratio, 2 ) +em;
+	}
+
+		.clear {
+			display: none;
+		}
+
+	&-title,
+	.comment-reply-title {
+		display: block; // For `.comment-reply-title`
+
+		span {
+			font-weight: 400;
+		}
+
+	}
+
+		.entry-subtitle {
+			display: none;
+		}
+
+	li {
+		padding: $ratio +em;
+
+		@include media( map_get( $breakpoint, 'l' ) ) {
+			padding: 2em;
+		}
+
+		&::before {
+			display: none;
+		}
+
+	}
+
+	.avatar {
+		width: _pow( $ratio, 2 ) +em;
+		margin-bottom: 1em;
+
+		@include media( map_get( $breakpoint, 'm' ) ) {
+			float: $left; // {{RTL}}
+			margin-bottom: 0;
+		}
+
+		@include media( map_get( $breakpoint, 'l' ) ) {
+			width: _pow( 1 + $ratio_min, 4 ) +em;
+		}
+
+	}
+
+	.star-rating {
+		margin-bottom: $ratio_min +em;
+	}
+
+	.meta {
+		margin-bottom: 1em;
+		font-size: 1em - $ratio_min / 2;
+	}
+
+	time {
+		opacity: .8;
+	}
+
+	.comment {
+
+		&list {
+			max-height: 18em;
+			max-height: 50vh;
+			border-width: 1px;
+			border-style: solid;
+			overflow-y: auto;
+
+			@include media( ( map_get( $breakpoint, 's' ), 'max-height' ) ) {
+				max-height: 75vh;
+			}
+
+		}
+
+		&-text {
+
+			@include media( map_get( $breakpoint, 'm' ) ) {
+				margin-#{$left}: _pow( $ratio, 2 ) + 1em; // {{RTL}}
+			}
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				margin-#{$left}: _pow( 1 + $ratio_min, 4 ) + $ratio +em; // {{RTL}}
+			}
+
+		}
+
+		&-respond {
+			padding: 0;
+			margin: 0;
+		}
+
+		&-form {
+			margin: 0;
+
+			&-rating {
+				padding: ( $ratio_maj +em ) 1em;
+				margin-bottom: $ratio +em;
+				overflow: hidden;
+				border-width: 2px;
+				border-style: solid;
+
+				label {
+					float: $left; // {{RTL}}
+					margin-#{$right}: 1em; // {{RTL}}
+					font-size: 1em - $ratio_min / 4;
+				}
+
+			}
+
+			textarea {
+				height: _pow( 1 + $ratio_min, 5 ) +em;
+			}
+
+			.form-submit {
+				clear: both;
+				margin: 0;
+			}
+
+			[type="submit"] {
+				width: 100%;
+			}
+
+		}
+
+	}
+
+}
+
+.commentlist {
+	margin-#{$left}: 0; // {{RTL}}
+	list-style: none;
+}

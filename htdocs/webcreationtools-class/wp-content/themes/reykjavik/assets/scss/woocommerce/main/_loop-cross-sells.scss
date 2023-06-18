@@ -1,0 +1,66 @@
+/* FILE: woocommerce/main/_loop-cross-sells.scss */
+
+.cross-sells {
+	margin-bottom: _pow( $ratio, 2 ) +em;
+
+	.thumbnail {
+		float: $left; // {{RTL}}
+		max-width: _pow( 1 + $ratio_min, 4 ) +em;
+		margin-#{$right}: 1em;
+	}
+
+	ul.products {
+		margin: 0;
+
+		a {
+			text-decoration: none;
+		}
+
+		.product {
+			width: 100%;
+			padding: 1em;
+			margin: 1em 0 0;
+			border-color: inherit;
+
+			&:first-child {
+				margin-top: 0;
+			}
+
+			a:first-child {
+				padding: 0;
+				overflow: hidden;
+			}
+
+			&::before {
+				display: none;
+			}
+
+			.description {
+				padding: 0 0 1em ( _pow( 1 + $ratio_min, 4 ) + 1em );
+				text-align: $left; // {{RTL}}
+			}
+
+				.star-rating {
+					position: relative;
+					left: auto;
+					top: auto;
+					margin: ( $ratio_min +em ) 0;
+					font-size: 1em - $ratio_min / 2;
+					background-color: transparent;
+					box-shadow: none;
+				}
+
+			.button {
+				margin-top: $ratio_maj +rem;
+				padding: $ratio_min +rem;
+			}
+
+		}
+
+	}
+
+	.onsale {
+		display: none;
+	}
+
+}

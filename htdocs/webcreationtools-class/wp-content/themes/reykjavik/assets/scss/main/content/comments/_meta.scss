@@ -1,0 +1,123 @@
+/* FILE: main/content/comments/_meta.scss */
+
+.comment-meta {
+	clear: both;
+	padding-bottom: $ratio_maj +em;
+	margin-bottom: 1em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	overflow: hidden;
+
+	a {
+		text-decoration: none;
+
+		@include haf() {
+			text-decoration: underline;
+		}
+
+	}
+
+	.avatar {
+		display: block;
+		width: 5em - $ratio;
+		margin-bottom: 1em;
+
+		@include media( map_get( $breakpoint, 'm' ) ) {
+			position: absolute;
+			width: 80px;
+			#{$left}: 0; // {{RTL}}
+			top: $ratio +em;
+			margin-bottom: 0;
+		}
+
+	}
+
+}
+
+.comment-author {
+
+	@include media( map_get( $breakpoint, 'm' ) ) {
+		float: $left; // {{RTL}}
+	}
+
+}
+
+.comment-metadata {
+	@extend %font_size_small;
+	text-transform: uppercase;
+
+	@include media( map_get( $breakpoint, 'm' ) ) {
+		float: $right; // {{RTL}}
+	}
+
+	.edit-link {
+		padding-#{$left}: $ratio +em; // {{RTL}}
+		font-variant: small-caps;
+	}
+
+}
+
+.comment-awaiting-moderation {
+	clear: both;
+}
+
+.bypostauthor > .comment-body .comment-author {
+
+	.avatar {
+
+		@include media( ( map_get( $breakpoint, 'm' ), 'max-width' ) ) {
+			border-left: ( $ratio_min +em ) solid;
+		}
+
+	}
+
+	&::before {
+		@extend %genericon;
+
+		@include media( map_get( $breakpoint, 'm' ) ) {
+			// Avatar is 80x80 px
+			content: '\f411';
+			position: absolute;
+			display: block;
+			width: 30px;
+			height: 30px;
+			#{$left}: 25px; // {{RTL}}
+			top: 65px;
+			margin-top: $ratio +em;
+			font-size: 16px;
+			line-height: 28px;
+			text-align: center;
+			font-size: 1em + $ratio_min / 2;
+			border-radius: 50%;
+			z-index: 1;
+		}
+
+	}
+
+}
+
+.comment-edit-link,
+.comment-reply-link {
+	text-decoration: none;
+
+	@include haf() {
+		text-decoration: underline;
+	}
+
+	&::before {
+		@extend %genericon;
+		content: '\f466';
+		margin-#{$right}: $ratio_min / 2 +em; // {{RTL}}
+		font-size: 1em + $ratio_min;
+		vertical-align: middle;
+	}
+
+}
+
+.comment-edit-link {
+
+	&::before {
+		content: '\f411';
+	}
+
+}

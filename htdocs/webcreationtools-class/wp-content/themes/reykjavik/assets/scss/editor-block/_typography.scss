@@ -1,0 +1,20 @@
+/* FILE: editor-block/_typography.scss */
+
+html #{ $selector_editor_wrapper } {
+	font-family: var(--typography_fonts_text);
+	font-size: var(--typography_font_size_base);
+	line-height: var(--typography_line_height);
+}
+
+.block-editor-default-block-appender textarea.block-editor-default-block-appender__content {
+	font-family: inherit;
+}
+
+// Heading line height.
+#{ $selector_editor_wrapper } {
+	@each $selector, $settings in $setup_headings {
+		#{ $selector }[class] {
+			line-height: nth( $settings, 2 );
+		}
+	}
+}

@@ -1,0 +1,15 @@
+$ratio:     1.618;
+$ratio_maj:  .618;
+$ratio_min:  .382;
+
+$button_font_size: .809; // 1 - $ratio_min / 2 | In em
+
+$form_field_padding_vertical: .618em; // Do not use $ratio_maj here! Causes calculation issues!
+
+$padding_vertical: 5rem;
+
+$mobile_menu_toggle_height: 3.618; // In rem.
+
+$page_content_width: 61.8; // In %
+$page_content_gutter: 8; // In %
+$page_content_width: $page_content_width - ( $page_content_gutter * .382 );

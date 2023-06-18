@@ -1,0 +1,21 @@
+/* FILE: main/content/media/_attachment.scss */
+
+.attachment {
+
+	caption {
+		caption-side: top;
+	}
+
+	&-download {
+		padding: $ratio +em;
+		margin-bottom: $ratio +em;
+		border-width: 2px;
+		border-style: dashed;
+
+		&-label {
+			@extend %font_weight_700;
+		}
+
+	}
+
+}

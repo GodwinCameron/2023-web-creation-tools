@@ -1,0 +1,1385 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Business Startup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-22 04:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:148
+msgid " "
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:130
+msgid " #"
+msgstr ""
+
+#: inc/template-tags.php:112
+#, php-format
+msgid " %s"
+msgstr ""
+
+#: inc/template-tags.php:132
+#, php-format
+msgid "#%1$s"
+msgstr ""
+
+#: classes/about-render.php:293
+msgid "$"
+msgstr ""
+
+#: inc/template-tags.php:64 template-parts/content.php:57
+msgid "% Comments"
+msgstr ""
+
+#: inc/common-functions-hooks.php:310
+msgctxt "%s font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/widgets/widgets.php:114 inc/widgets/widgets.php:127
+#: inc/widgets/widgets.php:140 inc/widgets/widgets.php:153
+#: inc/widgets/widgets.php:331 inc/widgets/widgets.php:344
+#: inc/widgets/widgets.php:357 inc/widgets/widgets.php:370
+#: inc/widgets/widgets.php:383 inc/widgets/widgets.php:396
+#: inc/widgets/widgets.php:556 inc/widgets/widgets.php:562
+#: inc/widgets/widgets.php:568 inc/widgets/widgets.php:574
+#: inc/widgets/widgets.php:580 inc/widgets/widgets.php:586
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/customizer/theme-option.php:423
+msgid "1"
+msgstr ""
+
+#: inc/template-tags.php:64 template-parts/content.php:57
+msgid "1 Comment"
+msgstr ""
+
+#: inc/customizer/theme-option.php:424
+msgid "2"
+msgstr ""
+
+#: inc/customizer/theme-option.php:425
+msgid "3"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:313
+msgid "404 Not Found"
+msgstr ""
+
+#: 404.php:29
+msgid "404 page not found"
+msgstr ""
+
+#: classes/about-render.php:294
+msgid "59"
+msgstr ""
+
+#: classes/about-render.php:277
+msgid "800+ Font Families"
+msgstr ""
+
+#: classes/plugin-classes.php:31
+msgid "Activate"
+msgstr ""
+
+#: classes/plugin-classes.php:153
+msgid "Activated"
+msgstr ""
+
+#: functions.php:277
+msgid "Active"
+msgstr ""
+
+#: inc/widget-init.php:23
+msgid "Add widgets here which will apear on your home page."
+msgstr ""
+
+#: inc/widget-init.php:12
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/customizer/banner-section.php:123
+msgid "Additional Banner Button Text"
+msgstr ""
+
+#: inc/customizer/banner-section.php:141
+msgid "Additional Button URL"
+msgstr ""
+
+#: inc/customizer/theme-option.php:533
+msgid "Additonal Text on Preloader"
+msgstr ""
+
+#: inc/customizer/theme-option.php:474
+msgid "Advanced"
+msgstr ""
+
+#: inc/customizer/theme-option.php:468
+#, php-format
+msgid "Advanced: Requires %1$sBreadcrumb NavXT%2$s plugin"
+msgstr ""
+
+#: inc/widgets/widgets.php:821 inc/widgets/widgets.php:972
+#: inc/widgets/widgets.php:1105 inc/widgets/widgets.php:1656
+#: inc/widgets/widgets.php:1661 inc/widgets/widgets.php:1666
+#: inc/widgets/widgets.php:1671 inc/widgets/widgets.php:1676
+#: inc/widgets/widgets.php:1681
+msgid "All Categories"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:314
+msgid "Archives"
+msgstr ""
+
+#: classes/about-render.php:95
+msgid "Article Meta Settings"
+msgstr ""
+
+#: inc/widgets/widgets.php:1238
+msgid "Author Image:"
+msgstr ""
+
+#: classes/about-render.php:28
+msgid "Background Image"
+msgstr ""
+
+#: inc/widgets/widgets.php:709
+msgid "Background Image:"
+msgstr ""
+
+#: classes/about-render.php:260
+msgid ""
+"Behind every single customer support question stands a real person ready to "
+"fix the problem in real-time and guide you through."
+msgstr ""
+
+#: inc/customizer/theme-option.php:450
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:467
+msgid "Breadcrumb Type"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:311
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:310
+msgid "Browse:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1268
+msgid "BS :- Author Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:842
+msgid "BS :- Blog Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:724
+msgid "BS :- Call To Action Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:989
+msgid "BS :- Client Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:1874
+msgid "BS :- Contact Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:407
+msgid "BS :- Intro Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:1693
+msgid "BS :- Portfolio Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:1117
+msgid "BS :- Recent Post"
+msgstr ""
+
+#: inc/widgets/widgets.php:164
+msgid "BS :- Service Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:1461
+msgid "BS :- Social Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:590
+msgid "BS :- Testimonial Widget"
+msgstr ""
+
+#. Name of the theme
+#: classes/about.php:25
+msgid "Business Startup"
+msgstr ""
+
+#: classes/admin-notice.php:86
+msgid ""
+"Business Startup is now installed and ready to use. Are you looking for a "
+"better experience to set up your site?"
+msgstr ""
+
+#: inc/customizer/customizer.php:48
+msgid "Business Startup Pro"
+msgstr ""
+
+#: inc/widgets/widgets.php:713
+msgid "Button Text:"
+msgstr ""
+
+#: inc/widgets/widgets.php:718
+msgid "Button URL:"
+msgstr ""
+
+#: inc/template-tags.php:41 inc/template-tags.php:79
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: functions.php:275 inc/widgets/widget-base-class.php:287
+msgid "Choose Image"
+msgstr ""
+
+#: inc/widgets/widgets.php:1946
+msgid "Close the map"
+msgstr ""
+
+#: classes/about-render.php:47 classes/about-render.php:276
+#: inc/customizer/color-typo.php:28
+msgid "Color Options"
+msgstr ""
+
+#: classes/about-render.php:52
+msgid "Color Scheme"
+msgstr ""
+
+#: classes/about-render.php:43
+msgid "Color Settings"
+msgstr ""
+
+#. %s: Name of current post
+#: inc/template-tags.php:64 template-parts/content.php:57
+msgid "comment"
+msgstr ""
+
+#: comments.php:47 comments.php:67
+msgid "Comment navigation"
+msgstr ""
+
+#. %s is the page number.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:320
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: comments.php:82
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/customizer/theme-option.php:148
+msgid "Conatct Page Excerpt Length"
+msgstr ""
+
+#: inc/common-functions-hooks.php:437
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/customizer/theme-option.php:182
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: inc/widgets/widgets.php:1862
+msgid "Contact Form Shortcodes:"
+msgstr ""
+
+#: inc/customizer/theme-option.php:215 inc/hooks/layout-meta/layout-meta.php:83
+msgid "Content - Primary Sidebar"
+msgstr ""
+
+#: inc/customizer/core/default.php:40
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/customizer/core/default.php:51
+msgid "Copyright All rights reserved"
+msgstr ""
+
+#: classes/about-render.php:251
+msgid "Create a Ticket"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Create beautiful and meaningful websites with a wonderful UI/UX experience "
+"with Business Startup free WordPress theme. Business Startup provides the "
+"complete toolkit for any kind of website building. Switch dark or "
+"light/minimal mode in a click clear us that It is perfectly suited for "
+"business companies, corporate agencies, any type of startups, freelancers, "
+"organizations, personal portfolio and creative minds as well, this template "
+"consists of well-organized components. With the WordPress Live Customizer "
+"&amp; Elementor Page Builder, add your own logo, your own content and pages, "
+"change colors &amp; do more. A Video banner with 10+ widgets give user an "
+"awesome experience and unlimited possibilities to manage their sites. Check "
+"our demos and our support links. Live Preview at: https://demo.themeinwp."
+"com/business-startup/ , https://demo.themeinwp.com/business-"
+"startup/corporate/ , https://demo.themeinwp.com/business-"
+"startup/construction/ , https://demo.themeinwp.com/business-startup/medical/ "
+", https://demo.themeinwp.com/business-startup/photography/ , https://demo."
+"themeinwp.com/business-startup/app-landing/ , https://demo.themeinwp."
+"com/business-startup/clean-blog/ All Demo data are available with one click "
+"demo import feature, which will make your site ready in single click. As "
+"usual, we will do our best to help you fix the troubles and issues promptly "
+"and effectively. Please create support ticket from https://www.themeinwp."
+"com/support/"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:836
+#: assets/libraries/breadcrumbs/breadcrumbs.php:1265
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/customizer/theme-option.php:31
+msgid "Dark Scheme"
+msgstr ""
+
+#: functions.php:278 classes/plugin-classes.php:23
+msgid "Deactivate"
+msgstr ""
+
+#: classes/plugin-classes.php:144
+msgid "Deactivated"
+msgstr ""
+
+#: inc/customizer/theme-option.php:389
+msgid "Default (Older / Newer Post)"
+msgstr ""
+
+#: functions.php:75
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/common-functions-hooks.php:452
+msgid "Demo Import Kit"
+msgstr ""
+
+#: inc/widgets/widgets.php:1233 inc/widgets/widgets.php:1649
+#: inc/widgets/widgets.php:1856
+msgid "Description:"
+msgstr ""
+
+#: inc/customizer/theme-option.php:422
+msgid "Disable footer sidebar area"
+msgstr ""
+
+#: inc/customizer/theme-option.php:472
+msgid "Disabled"
+msgstr ""
+
+#: classes/admin-notice.php:117
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/widgets/widgets.php:1218
+msgid "Displays authors details in post."
+msgstr ""
+
+#: inc/widgets/widgets.php:699
+msgid "Displays call-to-action section on the basis of information listed here"
+msgstr ""
+
+#: inc/widget-init.php:36 inc/widget-init.php:46 inc/widget-init.php:57
+#: inc/widget-init.php:68
+msgid "Displays items on footer section."
+msgstr ""
+
+#: inc/widgets/widgets.php:533
+msgid "Displays page as testimonial form selected pages"
+msgstr ""
+
+#: inc/widgets/widgets.php:804
+msgid "Displays post form selected category As Blog Post"
+msgstr ""
+
+#: inc/widgets/widgets.php:960
+msgid "Displays post form selected category As Client Post"
+msgstr ""
+
+#: inc/widgets/widgets.php:1639 inc/widgets/widgets.php:1846
+msgid "Displays post form selected category As Project"
+msgstr ""
+
+#: inc/widgets/widgets.php:1093
+msgid ""
+"Displays post form selected category specific for popular post in sidebars."
+msgstr ""
+
+#: inc/widgets/widgets.php:299
+msgid "Displays post form selected pages as intro page"
+msgstr ""
+
+#: inc/widgets/widgets.php:77
+msgid "Displays post form selected pages as service page"
+msgstr ""
+
+#: inc/widgets/widgets.php:1360
+msgid "Displays Social share."
+msgstr ""
+
+#: inc/widgets/widgets.php:1455
+msgid "Dribbble URL:"
+msgstr ""
+
+#. %s: Name of current post
+#: template-parts/content-page.php:65
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/common-functions-hooks.php:447
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: inc/customizer/theme-option.php:268
+msgid "Enable category Meta on Archive"
+msgstr ""
+
+#: inc/customizer/theme-option.php:116
+msgid "Enable Contact on Side Panel"
+msgstr ""
+
+#: inc/customizer/banner-section.php:65
+msgid "Enable Featured Image as Background Image"
+msgstr ""
+
+#: inc/customizer/theme-option.php:81
+msgid "Enable logo Animation"
+msgstr ""
+
+#: inc/customizer/banner-section.php:104
+msgid "Enable Page Link Button"
+msgstr ""
+
+#: inc/customizer/theme-option.php:341
+msgid "Enable Post Author Info in Single Post"
+msgstr ""
+
+#: inc/customizer/theme-option.php:300
+msgid "Enable Post Author on Archive"
+msgstr ""
+
+#: inc/customizer/theme-option.php:284
+msgid "Enable Post Date on Archive"
+msgstr ""
+
+#: inc/customizer/theme-option.php:500
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/customizer/theme-option.php:358
+msgid "Enable Related Post in Single Post"
+msgstr ""
+
+#: inc/customizer/theme-option.php:64
+msgid "Enable Side Panel"
+msgstr ""
+
+#: inc/customizer/theme-option.php:517
+msgid "Enable Site Title Text"
+msgstr ""
+
+#: inc/customizer/theme-option.php:167
+msgid "Enable Social Menu on Contact section"
+msgstr ""
+
+#: inc/customizer/theme-option.php:99
+msgid "Enable Social Menu on Side Panel"
+msgstr ""
+
+#: inc/customizer/banner-section.php:66
+msgid ""
+"Enabling this will dissable your Main Banner Background i.e your video or "
+"choosen header image."
+msgstr ""
+
+#: classes/plugin-classes.php:93
+msgid "Error - unable to verify nonce, please try again."
+msgstr ""
+
+#: inc/widgets/widgets.php:96 inc/widgets/widgets.php:313
+#: inc/widgets/widgets.php:544 inc/widgets/widgets.php:832
+msgid "Excerpt Length:"
+msgstr ""
+
+#: classes/about-render.php:141
+msgid "Eye-catching, Lightweight, and Highly Customizable WordPress Theme"
+msgstr ""
+
+#: inc/widgets/widgets.php:1242 inc/widgets/widgets.php:1370
+msgid "Facebook URL:"
+msgstr ""
+
+#: classes/plugin-classes.php:190 classes/plugin-classes.php:199
+msgid "Failed"
+msgstr ""
+
+#: inc/widgets/widgets.php:106 inc/widgets/widgets.php:323
+msgid "Font Icon will be replaced by featured image of particular pages"
+msgstr ""
+
+#: inc/customizer/color-typo.php:137
+msgid "Font Size for Big Title"
+msgstr ""
+
+#: inc/customizer/color-typo.php:173
+msgid "Font Size For Paragraph"
+msgstr ""
+
+#: inc/customizer/color-typo.php:155
+msgid "Font Size for Small Title"
+msgstr ""
+
+#: inc/customizer/color-typo.php:18
+msgid "Fonts & Typography"
+msgstr ""
+
+#: inc/widget-init.php:66
+msgid "Footer Column Four"
+msgstr ""
+
+#: inc/widget-init.php:34
+msgid "Footer Column One"
+msgstr ""
+
+#: inc/widget-init.php:55
+msgid "Footer Column Three"
+msgstr ""
+
+#: inc/widget-init.php:44
+msgid "Footer Column Two"
+msgstr ""
+
+#: inc/customizer/theme-option.php:440
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/theme-option.php:400
+msgid "Footer Options"
+msgstr ""
+
+#: classes/about-render.php:110
+msgid "Footer Setting"
+msgstr ""
+
+#: inc/widgets/widgets.php:1450
+msgid "FourSquare URL:"
+msgstr ""
+
+#. Name of the template
+msgid "Front Page Template"
+msgstr ""
+
+#: inc/customizer/theme-option.php:321 inc/hooks/layout-meta/layout-meta.php:98
+msgid "Full"
+msgstr ""
+
+#. Name of the template
+msgid "Full-Width Template"
+msgstr ""
+
+#: classes/about-render.php:14
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/color-typo.php:9
+msgid "General settings"
+msgstr ""
+
+#: classes/admin-notice.php:88
+msgid "Getting started"
+msgstr ""
+
+#: inc/widgets/widgets.php:1445
+msgid "Github URL:"
+msgstr ""
+
+#: inc/customizer/theme-option.php:211
+msgid "Global Layout"
+msgstr ""
+
+#: inc/widgets/widgets.php:1867
+msgid "Google Map Shortcodes:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1252 inc/widgets/widgets.php:1380
+msgid "Googleplus URL:"
+msgstr ""
+
+#: classes/about-render.php:23
+msgid "Header Media"
+msgstr ""
+
+#: classes/about-render.php:80
+msgid "Header Settings"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:312
+msgid "Home"
+msgstr ""
+
+#: inc/widget-init.php:21
+msgid "Home Page Widget Area"
+msgstr ""
+
+#: classes/about-render.php:62 classes/about-render.php:66
+msgid "Homepage Content Section"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:818
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.themeinwp.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.themeinwp.com/theme/business-startup"
+msgstr ""
+
+#: inc/customizer/theme-option.php:391
+msgid "Infinite Scroll Ajax Load"
+msgstr ""
+
+#: inc/widgets/widgets.php:1257 inc/widgets/widgets.php:1390
+msgid "Instagram URL:"
+msgstr ""
+
+#: classes/plugin-classes.php:34
+msgid "Install & Active"
+msgstr ""
+
+#: classes/admin-notice.php:98
+msgid "Install and activate recommended plugins"
+msgstr ""
+
+#: classes/plugin-classes.php:182
+msgid "Installed & Activated"
+msgstr ""
+
+#: inc/widgets/widgets.php:334
+msgid "Intro Icon 1:"
+msgstr ""
+
+#: inc/widgets/widgets.php:347
+msgid "Intro Icon 2:"
+msgstr ""
+
+#: inc/widgets/widgets.php:360
+msgid "Intro Icon 3:"
+msgstr ""
+
+#: inc/widgets/widgets.php:373
+msgid "Intro Icon 4:"
+msgstr ""
+
+#: inc/widgets/widgets.php:386
+msgid "Intro Icon 5:"
+msgstr ""
+
+#: inc/widgets/widgets.php:399
+msgid "Intro Icon 6:"
+msgstr ""
+
+#: 404.php:30
+msgid ""
+"It looks like nothing was found at this location. Maybe try going back to "
+"Homepage or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: classes/about-render.php:254
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/customizer/theme-option.php:193
+msgid "Layout Management"
+msgstr ""
+
+#: classes/about-render.php:105 inc/hooks/layout-meta/layout-meta.php:68
+msgid "Layout Settings"
+msgstr ""
+
+#: classes/admin-notice.php:114
+msgid "Leave a review"
+msgstr ""
+
+#: inc/widgets/widgets.php:1868
+msgid "Leave this field empty if you do not want to use mag feature"
+msgstr ""
+
+#: inc/customizer/theme-option.php:323
+#: inc/hooks/layout-meta/layout-meta.php:101
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/theme-option.php:30
+msgid "Light Scheme"
+msgstr ""
+
+#: inc/widgets/widgets.php:1385
+msgid "Linkedin URL:"
+msgstr ""
+
+#: inc/common-functions-hooks.php:121
+msgid "Load More Posts"
+msgstr ""
+
+#: inc/customizer/core/default.php:59
+msgid "Loading"
+msgstr ""
+
+#: classes/about-render.php:18
+msgid "Logo & Site Identity"
+msgstr ""
+
+#: classes/about-render.php:246
+msgid "Looking for help?"
+msgstr ""
+
+#: inc/customizer/banner-section.php:21
+msgid "Main Banner Background"
+msgstr ""
+
+#: inc/customizer/banner-section.php:31
+msgid "Main Banner Content"
+msgstr ""
+
+#: inc/customizer/banner-section.php:12
+msgid "Main Banner Section Settings"
+msgstr ""
+
+#: classes/about-render.php:33
+msgid "Menu Settings"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:322
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:784
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:801
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:835
+#: assets/libraries/breadcrumbs/breadcrumbs.php:891
+#: assets/libraries/breadcrumbs/breadcrumbs.php:1261
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: classes/about-render.php:278
+msgid "More Custom Widgets"
+msgstr ""
+
+#: classes/about-render.php:279
+msgid "More Customizer controls"
+msgstr ""
+
+#: classes/about-render.php:280
+msgid "More page/post meta options"
+msgstr ""
+
+#: inc/widgets/widgets.php:91
+msgid "Move Image to Right"
+msgstr ""
+
+#: classes/about-render.php:284
+msgid "much more stuff..."
+msgstr ""
+
+#: inc/widgets/widgets.php:1228
+msgid "Name:"
+msgstr ""
+
+#: comments.php:50 comments.php:70
+msgid "Newer Comments"
+msgstr ""
+
+#: single.php:22
+msgid "Next post:"
+msgstr ""
+
+#: inc/hooks/layout-meta/layout-meta.php:107
+msgid "No Image"
+msgstr ""
+
+#: inc/customizer/theme-option.php:324
+msgid "No image"
+msgstr ""
+
+#: inc/customizer/theme-option.php:216 inc/hooks/layout-meta/layout-meta.php:89
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:980
+msgid "Number of Clients:"
+msgstr ""
+
+#: inc/customizer/theme-option.php:417
+msgid "Number Of Footer Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:1684
+msgid "Number of Posts from each:"
+msgstr ""
+
+#: inc/widgets/widgets.php:824 inc/widgets/widgets.php:1108
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/widgets/widgets.php:97 inc/widgets/widgets.php:314
+#: inc/widgets/widgets.php:545 inc/widgets/widgets.php:833
+msgid "Number of words"
+msgstr ""
+
+#: inc/customizer/theme-option.php:390
+msgid "Numeric"
+msgstr ""
+
+#: comments.php:49 comments.php:69
+msgid "Older Comments"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/widgets/widgets.php:1943
+msgid "Open the map"
+msgstr ""
+
+#. %s is the page number.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:318
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: classes/admin-notice.php:88
+msgid ""
+"page. It helps you get started and configure your upcoming website with ease."
+" Let's make it shine!"
+msgstr ""
+
+#: inc/common-functions-hooks.php:501 template-parts/content-page.php:53
+#: template-parts/content-single.php:63 template-parts/content.php:96
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/theme-option.php:368
+msgid "Pagination Options"
+msgstr ""
+
+#: classes/about-render.php:90
+msgid "Pagination Settings"
+msgstr ""
+
+#: inc/customizer/theme-option.php:385
+msgid "Pagination Type"
+msgstr ""
+
+#: inc/widgets/widgets.php:1262 inc/widgets/widgets.php:1395
+msgid "Pinterest URL:"
+msgstr ""
+
+#: inc/widgets/widgets.php:118 inc/widgets/widgets.php:131
+#: inc/widgets/widgets.php:144 inc/widgets/widgets.php:157
+#: inc/widgets/widgets.php:335 inc/widgets/widgets.php:348
+#: inc/widgets/widgets.php:361 inc/widgets/widgets.php:374
+#: inc/widgets/widgets.php:387 inc/widgets/widgets.php:400
+msgid "please get icon form https://ionicons.com/v2/cheatsheet.html"
+msgstr ""
+
+#: inc/template-tags.php:36
+#, php-format
+msgid "Posted On %s"
+msgstr ""
+
+#: inc/customizer/theme-option.php:483
+msgid "Preloader Options"
+msgstr ""
+
+#: single.php:24
+msgid "Previous post:"
+msgstr ""
+
+#: functions.php:89
+msgid "Primary"
+msgstr ""
+
+#: inc/customizer/color-typo.php:45
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/color-typo.php:100
+msgid "Primary Font"
+msgstr ""
+
+#: header.php:108
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/customizer/theme-option.php:214 inc/hooks/layout-meta/layout-meta.php:86
+msgid "Primary Sidebar - Content"
+msgstr ""
+
+#: inc/customizer/customizer.php:49
+msgid "Purchase"
+msgstr ""
+
+#: classes/about-render.php:273
+#, php-format
+msgid ""
+"Purchase %1$s Pro and get instant access to all premium extensions, features "
+"and future updates."
+msgstr ""
+
+#: classes/admin-notice.php:84
+msgid "Quick Setup"
+msgstr ""
+
+#: inc/customizer/core/default.php:25
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/theme-option.php:233
+msgid "Read More Button Text"
+msgstr ""
+
+#: template-parts/content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: classes/about-render.php:194
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/widgets/widgets.php:1400
+msgid "Reddit URL:"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:298
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+#: classes/about-render.php:282
+msgid "Remove Footer Attribution (copyright)"
+msgstr ""
+
+#: inc/customizer/banner-section.php:124
+msgid ""
+"Removing the text from this section will disable the custom button on Banner "
+"Section"
+msgstr ""
+
+#: inc/customizer/theme-option.php:322
+#: inc/hooks/layout-meta/layout-meta.php:104
+msgid "Right"
+msgstr ""
+
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. %s is the search query.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:316
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/customizer/color-typo.php:63
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/customizer/color-typo.php:118
+msgid "Secondary Font"
+msgstr ""
+
+#: inc/widgets/widgets.php:309
+msgid "Section Background Image:"
+msgstr ""
+
+#: inc/widgets/widgets.php:87
+msgid "Section Featured Image:"
+msgstr ""
+
+#: functions.php:276
+msgid "Select"
+msgstr ""
+
+#: inc/widgets/widgets.php:1654
+msgid "Select Category 1:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1659
+msgid "Select Category 2:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1664
+msgid "Select Category 3:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1669
+msgid "Select Category 4:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1674
+msgid "Select Category 5:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1679
+msgid "Select Category 6:"
+msgstr ""
+
+#: inc/widgets/widgets.php:970
+msgid "Select Category For Client:"
+msgstr ""
+
+#: inc/widgets/widgets.php:819 inc/widgets/widgets.php:1103
+msgid "Select Category:"
+msgstr ""
+
+#: inc/customizer/theme-option.php:132
+msgid "Select Contact Page"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:286
+msgid "Select Image"
+msgstr ""
+
+#: inc/customizer/banner-section.php:48
+msgid "Select Main Banner Page"
+msgstr ""
+
+#: inc/customizer/banner-section.php:84
+msgid "Select no of words to Display"
+msgstr ""
+
+#: inc/widgets/widgets.php:111 inc/widgets/widgets.php:328
+#: inc/widgets/widgets.php:553
+msgid "Select Page 1:"
+msgstr ""
+
+#: inc/widgets/widgets.php:124 inc/widgets/widgets.php:341
+#: inc/widgets/widgets.php:559
+msgid "Select Page 2:"
+msgstr ""
+
+#: inc/widgets/widgets.php:137 inc/widgets/widgets.php:354
+#: inc/widgets/widgets.php:565
+msgid "Select Page 3:"
+msgstr ""
+
+#: inc/widgets/widgets.php:150 inc/widgets/widgets.php:367
+#: inc/widgets/widgets.php:571
+msgid "Select Page 4:"
+msgstr ""
+
+#: inc/widgets/widgets.php:380 inc/widgets/widgets.php:577
+msgid "Select Page 5:"
+msgstr ""
+
+#: inc/widgets/widgets.php:393 inc/widgets/widgets.php:583
+msgid "Select Page 6:"
+msgstr ""
+
+#: inc/customizer/theme-option.php:27
+msgid "Select Theme Mod"
+msgstr ""
+
+#: inc/widgets/widgets.php:117
+msgid "Service Icon 1:"
+msgstr ""
+
+#: inc/widgets/widgets.php:130
+msgid "Service Icon 2:"
+msgstr ""
+
+#: inc/widgets/widgets.php:143
+msgid "Service Icon 3:"
+msgstr ""
+
+#: inc/widgets/widgets.php:156
+msgid "Service Icon 4:"
+msgstr ""
+
+#: inc/customizer/theme-option.php:250
+msgid "Set Global Archive Length"
+msgstr ""
+
+#: inc/widgets/widgets.php:814 inc/widgets/widgets.php:975
+msgid "Short Description:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1758
+msgid "show all"
+msgstr ""
+
+#: inc/customizer/theme-option.php:47
+msgid "Side Panel Settings"
+msgstr ""
+
+#: inc/widget-init.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-option.php:473
+msgid "Simple"
+msgstr ""
+
+#: inc/hooks/layout-meta/layout-meta.php:95
+msgid "Single Page/Post Image Layout"
+msgstr ""
+
+#: inc/hooks/layout-meta/layout-meta.php:80
+msgid "Single Page/Post Layout"
+msgstr ""
+
+#: inc/hooks/layout-meta/layout-meta.php:23
+msgid "Single Page/Post Settings"
+msgstr ""
+
+#: classes/about-render.php:100
+msgid "Single Post Settings"
+msgstr ""
+
+#: inc/customizer/theme-option.php:318
+msgid "Single Post/Page Image Allocation"
+msgstr ""
+
+#: header.php:58
+msgid "Skip to content"
+msgstr ""
+
+#: inc/widgets/widgets.php:1405
+msgid "Skype URL:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1410
+msgid "Snapchat URL:"
+msgstr ""
+
+#: functions.php:90
+msgid "Social Menu"
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: classes/plugin-classes.php:87
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: inc/customizer/theme-option.php:13
+msgid "Switch Theme Mode"
+msgstr ""
+
+#: inc/widgets/widgets.php:105 inc/widgets/widgets.php:322
+msgid "Switch to Feature Image"
+msgstr ""
+
+#: inc/template-tags.php:150
+#, php-format
+msgid "Tagged: %1$s"
+msgstr ""
+
+#: inc/customizer/color-typo.php:81
+msgid "Tertiary Color"
+msgstr ""
+
+#: inc/widgets/widgets.php:539
+msgid "Testimonial"
+msgstr ""
+
+#: classes/about-render.php:257
+msgid "Theme Documentation"
+msgstr ""
+
+#: classes/about-render.php:76 inc/customizer/theme-option.php:40
+msgid "Theme Options"
+msgstr ""
+
+#: footer.php:72
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeInWP"
+msgstr ""
+
+#: inc/common-functions-hooks.php:457
+msgid "Themeinwp Import Companion"
+msgstr ""
+
+#: inc/widgets/widgets.php:82 inc/widgets/widgets.php:304
+#: inc/widgets/widgets.php:538 inc/widgets/widgets.php:704
+#: inc/widgets/widgets.php:809 inc/widgets/widgets.php:965
+#: inc/widgets/widgets.php:1098 inc/widgets/widgets.php:1223
+#: inc/widgets/widgets.php:1365 inc/widgets/widgets.php:1644
+#: inc/widgets/widgets.php:1851
+msgid "Title:"
+msgstr ""
+
+#: classes/about-render.php:85
+msgid "Top Header Settings"
+msgstr ""
+
+#: inc/widgets/widgets.php:1415
+msgid "Tumblr URL:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1420
+msgid "Twitch URL:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1247 inc/widgets/widgets.php:1375
+msgid "Twitter URL:"
+msgstr ""
+
+#: classes/about-render.php:290 classes/about-render.php:297
+#: classes/admin-notice.php:93
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:285
+msgid "Upload"
+msgstr ""
+
+#: classes/admin-notice.php:105
+msgid "View Demo"
+msgstr ""
+
+#: inc/hooks/main-banner.php:53
+msgid "View More"
+msgstr ""
+
+#: inc/widgets/widgets.php:1430
+msgid "Vimeo URL:"
+msgstr ""
+
+#: classes/about-render.php:283
+msgid "VIP priority Support"
+msgstr ""
+
+#: classes/about-render.php:248
+msgid "We have some resources available to help you in the right direction."
+msgstr ""
+
+#: inc/customizer/theme-option.php:183
+msgid "We Recomend you to use Contact Form 7"
+msgstr ""
+
+#: classes/admin-notice.php:88
+msgid "We've prepared a unique onboarding process through our"
+msgstr ""
+
+#: classes/about-render.php:281
+msgid "Webmaster Tools"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:324
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:864
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/widgets/widgets.php:1435
+msgid "Whatsapp URL:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1440
+msgid "WordPress URL:"
+msgstr ""
+
+#: inc/common-functions-hooks.php:442
+msgid "WP Google Maps"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:834
+#: assets/libraries/breadcrumbs/breadcrumbs.php:863
+#: assets/libraries/breadcrumbs/breadcrumbs.php:890
+#: assets/libraries/breadcrumbs/breadcrumbs.php:917
+#: assets/libraries/breadcrumbs/breadcrumbs.php:1257
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/common-functions-hooks.php:384
+msgid "You May Also Like"
+msgstr ""
+
+#: inc/widgets/widgets.php:1425
+msgid "Youtube URL:"
+msgstr ""

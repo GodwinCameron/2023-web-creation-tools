@@ -1,0 +1,12 @@
+/* FILE: main/modifiers/__index.scss */
+
+@import 'colors'; // Must be first so others can override padding.
+@import 'alignment';
+@import 'box-model';
+@import 'others';
+@import 'typography';
+@import 'decorations';
+
+.site {
+	@import 'backcompat';
+}

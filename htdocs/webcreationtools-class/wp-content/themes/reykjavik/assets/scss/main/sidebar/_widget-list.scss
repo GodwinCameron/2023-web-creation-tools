@@ -1,0 +1,23 @@
+/* FILE: main/sidebar/_widget-list.scss */
+
+ul {
+
+	li {
+
+		.widget_recent_comments &,
+		.widget_recent_entries & {
+			position: relative;
+			padding-#{$left}: $ratio +em; // {{RTL}}
+		}
+
+	}
+
+}
+
+.widget_recent_entries {
+
+	.post-date {
+		display: block;
+	}
+
+}

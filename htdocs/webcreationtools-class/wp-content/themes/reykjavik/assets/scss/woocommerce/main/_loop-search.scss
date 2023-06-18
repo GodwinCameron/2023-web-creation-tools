@@ -1,0 +1,22 @@
+/* FILE: woocommerce/main/_loop-search.scss */
+
+.search-results {
+
+	.entry-title {
+
+		del {
+			display: inline;
+			margin-#{$right}: $ratio_min +em; // {{RTL}}
+		}
+
+	}
+
+	.product {
+
+		.entry-summary {
+			display: none;
+		}
+
+	}
+
+}

@@ -1,0 +1,303 @@
+/* FILE: woocommerce/pages/_cart.scss */
+
+.woocommerce-cart {
+
+	.woocommerce {
+		@extend %clearfix;
+
+		> form {
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				float: $left; // {{RTL}}
+				width: percentage( .54 );
+			}
+
+			@include media( map_get( $breakpoint, 'xl' ) ) {
+				width: percentage( $ratio_maj );
+			}
+
+		}
+
+	}
+
+	.cart {
+		margin: 0;
+		border-bottom-width: 0;
+
+		td {
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				padding-top: $ratio +rem;
+				padding-bottom: $ratio +rem;
+			}
+
+			&::after {
+				height: 100%;
+				margin: 0;
+				background-color: transparent;
+				opacity: 1;
+
+				@include media( map_get( $breakpoint, 'l' ) ) {
+					border-top-width: 1px;
+					border-top-style: solid;
+				}
+
+			}
+
+		}
+
+		.actions {
+			padding: ( _pow( 1 + $ratio_min, 4 ) +em ) 0 0;
+			border-bottom-width: 0;
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				border-top-width: 2px;
+				border-top-style: solid;
+				text-align: $right;
+			}
+
+			.button {
+				width: 100%;
+				margin-top: $ratio +em;
+				box-sizing: border-box; // Reset required for when displayed in shop table
+
+				@include media( map_get( $breakpoint, 'l' ) ) {
+					width: auto;
+					margin-top: 0;
+				}
+
+			}
+
+		}
+
+		.coupon .button {
+			width: 100%;
+			margin-top: 1em;
+		}
+
+	}
+
+	.coupon {
+		@extend %coupon_box;
+
+		@include media( map_get( $breakpoint, 'l' ) ) {
+			float: $left; // {{RTL}}
+			min-width: 50%;
+			max-width: 24em;
+		}
+
+	}
+
+}
+
+.cart-table-products-count {
+	font-weight: 400;
+}
+
+.cart-collaterals {
+	padding: 8%;
+	margin-top: _pow( $ratio, 2 ) +em;
+	border-width: 2px;
+	border-style: dashed;
+
+	@include media( map_get( $breakpoint, 'l' ) ) {
+		float: $right; // {{RTL}}
+		width: percentage( .46 - .04 );
+		padding: 4%;
+		margin-top: 0;
+	}
+
+	@include media( map_get( $breakpoint, 'xl' ) ) {
+		width: percentage( $ratio_min - .04 ); // Same as sidebar plus 4% due to padding with border around.
+	}
+
+}
+
+.cart_totals {
+
+	.shop_table {
+		margin-bottom: 2em;
+	}
+
+	.checkout-button {
+		width: 100%;
+		padding: ( $ratio_min + 1em ) ( $ratio_min +em );
+		font-weight: 700;
+	}
+
+	.button-continue-shopping {
+		width: 100%;
+		margin-top: 1em;
+
+		&:not(:hover):not(:focus):not(:active) {
+			background-color: transparent;
+			color: inherit;
+		}
+
+		&::before {
+			@extend %icon_vertical_align_middle;
+			@include rtl_property( content, '\21A9', '\21AA' ); // {{RTL}}
+			display: inline-block;
+			margin-#{$right}: $ratio_min +em; // {{RTL}}
+			line-height: $ratio_maj;
+			font-size: 1em + $ratio_min;
+		}
+
+	}
+
+}
+
+.order-total {
+
+	td {
+		line-height: 1;
+		font-size: $ratio_min / 2 + 1em;
+	}
+
+	small {
+		display: block;
+		margin-top: $ratio_maj +em;
+		font-size: 1rem - $ratio_min / 2;
+		font-weight: 400;
+	}
+
+}
+
+.shipping {
+
+	td {
+		font-size: 1em - $ratio_min / 4;
+
+		&:last-child {
+			text-align: $left; // {{RTL}}
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				max-width: 12em;
+			}
+
+		}
+
+		> p {
+			clear: both;
+		}
+
+	}
+
+	.shipping-calculator {
+		padding: 0;
+
+		&::after {
+			display:none;
+		}
+
+		&-button {
+			display: block;
+			padding: ( $ratio_maj +em ) ( $ratio +em );
+			text-align: center;
+			text-decoration: none;
+		}
+
+	}
+
+	ul {
+		clear: both;
+		margin: 0;
+		list-style: none;
+	}
+
+	li {
+		position: relative;
+
+		label {
+			display: block;
+			padding: ( $ratio_min +em ) 0;
+		}
+
+	}
+
+}
+
+.woocommerce-shipping-calculator {
+	box-sizing: border-box;
+	margin: 0;
+
+	p {
+		margin-bottom: 1em;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		.button {
+			width: 100%;
+		}
+
+	}
+
+	> p {
+		margin: 0;
+	}
+
+	select,
+	input[type="text"] {
+		width: 100%;
+		background-color: transparent;
+		background-origin: padding-box;
+	}
+
+}
+
+.shipping-calculator {
+
+	&-button {
+		font-weight: 700;
+		text-transform: uppercase;
+		border: 2px solid;
+		color: inherit;
+	}
+
+	&-form {
+		padding: 1em;
+	}
+
+}
+
+.cart-empty {
+	margin-bottom: 1em;
+	font-weight: 700;
+
+	&-container {
+		padding: _pow( $ratio, 2 ) +em;
+		text-align: center;
+		border-width: 2px;
+		border-style: dashed;
+
+		@include media( map_get( $breakpoint, 'l' ) ) {
+			width: percentage( $ratio_maj );
+			margin: 0 auto;
+		}
+
+	}
+
+}
+
+.return-to-shop .button {
+	font-weight: 700;
+
+	&::before {
+		@extend %genericon;
+		@extend %icon_vertical_align_middle;
+		content: '\f447';
+	}
+
+}
+
+.checkout-button,
+.checkout.button {
+
+	&,
+	.site .fl-builder-content .fl-module & {
+		@extend %colors_accent;
+	}
+
+}

@@ -1,0 +1,51 @@
+/* FILE: main/content/comments/_list.scss */
+
+.comment-list {
+	padding: 0;
+	margin: 0 0 ( $ratio +em );
+
+	&,
+	& ol {
+		list-style: none;
+	}
+
+	.comments-closed + & {
+		margin-top: $ratio +em;
+	}
+
+	> li,
+	.children > li {
+		position: relative;
+		min-height: 5em;
+		padding: ( $ratio +em ) 0 0;
+		margin: 0;
+		background: none;
+
+		@include media( map_get( $breakpoint, 'm' ) ) {
+			padding-#{$left}: 100px; // {{RTL}}
+		}
+
+	}
+
+	.children {
+		clear: both;
+		margin: 0;
+		margin-#{$left}: 1em; // {{RTL}}
+
+		@include media( map_get( $breakpoint, 'm' ) ) {
+			margin-#{$left}: calc( -100px + #{ $ratio +em } ); // {{RTL}}
+		}
+
+	}
+
+}
+
+.comment-body {
+	padding: ( $ratio +em ) 0 0;
+
+	@include media( map_get( $breakpoint, 'm' ) ) {
+		padding-left: $ratio +em;
+		padding-right: $ratio +em;
+	}
+
+}
